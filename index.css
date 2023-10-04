@@ -1,0 +1,42 @@
+body {
+  border: 1px solid black;
+  font-family: arial, sans-serif;
+  height: 700px;
+}
+
+.Header {
+  display: flex;
+  justify-content: end;
+  border: 1px solid black;
+}
+
+.Header .nav {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.Header > .nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.Header .apps {
+  fill: #5f6368;
+  width: 20px;
+  height: 20px;
+  padding-left: 10px;
+}
+.Header .account {
+  fill: #5f6368;
+}
+
+/* 
+
+.Showcase {
+}
+
+.Footer {
+}
+ */
