@@ -32,11 +32,92 @@ body {
   fill: #5f6368;
 }
 
-/* 
-
 .Showcase {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-top: 30px;
+  margin-bottom: 100px;
+}
+
+.google {
+  margin-top: 60px;
+}
+
+.Search {
+  display: flex;
+  border: 1px solid black;
+  width: 582px;
+  height: 46px;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+  border-radius: 24px;
+  margin-top: 20px;
+  align-items: center;
+  padding-left: 10px;
+  justify-content: space-evenly;
+}
+
+.Search .svg1 {
+  width: 20px;
+  height: 20px;
+  fill: #9aa0a6;
+}
+.Search .svg2,
+.svg3,
+.svg4 {
+  width: 24px;
+  height: 24px;
+}
+
+.Search .svg2 {
+  padding-top: 10px;
+}
+
+.Search .text {
+  width: 400px;
+  height: inherit;
+  border: none;
+  border-radius: 24px;
+}
+
+input:focus {
+  /*tıklandığında border özelliğini kaldırma*/
+  outline: none;
+}
+
+.png {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 0 10px;
+}
+
+.buttons {
+  padding-top: 18px;
+}
+
+.buttons .button1 {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  width: 110x;
+  height: 36px;
+  margin: 11px 4px;
+  padding: 0 16px;
+}
+.buttons .button2 {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  width: 210x;
+  height: 36px;
+  margin: 11px 4px;
+  padding: 0 16px;
 }
 
 .Footer {
+  border: 1px solid black;
 }
- */
